@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&display=swap');
+/* font-family: 'Alexandria', sans-serif; */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alexandria', sans-serif;
+    height: 10000px;
+}
+
+/* HEADER --------------------------------------------------------------- */
+
+
+
+header {
+    background-color: rgb(78, 62, 62);
+    width: 100%;
+    height: 15vh;
+
+
+    /* background: linear-gradient(to right, white 10%, yellow 20%, red 30%, orange 40%, blue 50%, blue 60%, green 70%, purple 80%, brown 90%, black 100%); */
+}
+
+.cabecalho {
+    width: 940px;
+    height: 15vh;
+    margin: 0 auto;
+    background: rgb(65, 61, 61);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+img {
+    width: 80px;
+    margin: 0 0 0 30px;
+}
+
+/* MAIN --------------------------------------------------------------- */
+
+
+li {
+    display: inline-block;
+}
+
+
+
+
+
+
+/* TABLE --------------------------------------------------------------- */
+
+
+thead {
+    background: rgba(90, 84, 84, 0.61);
+    color: rgba(0, 0, 0, 0.685);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
