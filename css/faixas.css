@@ -5,7 +5,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Alexandria', sans-serif;
-    height: 10000px;
+    background: url(../img/stars.png);
+    z-index: 0;
 }
 
 /* HEADER --------------------------------------------------------------- */
@@ -13,7 +14,7 @@ body {
 
 
 header {
-    background-color: rgb(78, 62, 62);
+    background: url(../img/stars.png)
     width: 100%;
     height: 15vh;
 
@@ -21,35 +22,117 @@ header {
     /* background: linear-gradient(to right, white 10%, yellow 20%, red 30%, orange 40%, blue 50%, blue 60%, green 70%, purple 80%, brown 90%, black 100%); */
 }
 
+.cabecalho h1 {
+    margin: auto;
+    font-size: 3vh;
+    text-align: center;
+    color: rgb(245, 245, 245);
+}
+
 .cabecalho {
     width: 940px;
     height: 15vh;
     margin: 0 auto;
-    background: rgb(65, 61, 61);
-    position: fixed;
+    background: rgb(83, 82, 82);
     top: 0;
     left: 0;
     right: 0;
 }
 
-img {
+.logo {
     width: 80px;
     margin: 0 0 0 30px;
 }
 
 /* MAIN --------------------------------------------------------------- */
 
+/* main {
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+
+} */
+
+
+
+.leftt {
+    width: 322px;
+    height: 2500px;
+    float: left;
+    background: url(../img/stars.png);
+}
+
+.rightt {
+    width: 322px;
+    height: 2500px;
+    float: right;
+    background: url(../img/stars.png);
+}
+
+
+
+.leftt img {
+    /* width: inherit;
+    height: inherit; */
+}
+
+
+/* lista --------------------------------------------------------------- */
+
+
+
+section {
+    background: rgb(189, 188, 188);
+    width: 940px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+ul {
+    margin: 0;
+}
 
 li {
-    display: inline-block;
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+li img {
+    width: 20vh;
+    margin: 0 70px;
+    transition: 0.5s;
+}
+
+li img:hover {
+    width: 21vh;
+}
+
+li h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: 0 0 50px 0;
 }
 
 
 
 
 
+/* footer --------------------------------------------------------------- */
 
-/* TABLE --------------------------------------------------------------- */
+
+footer {
+    width: 100%;
+    height: 40vh;
+    margin: 0 auto;
+    background: rgb(70, 67, 67);
+}
+
+table {
+    padding: 100px 0 0 700px;
+}
 
 
 thead {
@@ -61,4 +144,8 @@ th, td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
+}
+
+td {
+    background: rgba(255, 255, 255, 0.63);
 }
