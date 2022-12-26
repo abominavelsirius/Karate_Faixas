@@ -1,4 +1,23 @@
-.golpe_img {
-    display: flex;
+* {
+    padding: 0;
+    margin: 0;
+}
 
+
+.golpes_section{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.golpes_section h2 {
+    text-align: center;
+}
+
+.button-game {
+    width: 100px;
+}
+
+.golpes_section div {
+    width: 540px;
+    margin: 0 270px;
 }
